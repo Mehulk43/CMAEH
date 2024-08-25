@@ -28,6 +28,10 @@ Download data from https://github.com/swuxyj/DeepHash-pytorch for different data
 
 ![PR curve compared with different types of loss ](fig/PRcurve64.png)
 
-![Retrieval reseult of CIFAR10(fig/cifar10(0.25).png)]
+![Retrieval reseult of CIFAR10 ](fig/cifar10(0.25).png)
+
+
+### Paper Citation
+Please cite following paper if you make use of this code in your research:
 
 
