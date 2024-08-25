@@ -20,11 +20,14 @@ Download the MAE-ViT pretrained models from official repository and keep under p
 Download data from https://github.com/swuxyj/DeepHash-pytorch for different dataset, if not already present under data directory.
 
 
-## Masking Sample
-![Random masking](fig/randommasking.png)
-![Patch Masking](fig/patchmasking.png)
+## Regenrated Sample Image
+![Random Masking Regenrate](fig/regenreate.png)
+![Patch Masking Regenrate](fig/patchmasking.25.png)
 
 ## Qualitative results
 
 ![PR curve compared with different types of loss ](fig/PRcurve64.png)
+
+![Retrieval reseult of CIFAR10(fig/cifar10(0.25).png)]
+
 
