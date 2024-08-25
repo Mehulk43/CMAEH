@@ -3,7 +3,7 @@ CMAEH: Contrastive masked autoencoder based hashing for efficient image retrieva
 International Conference on Pattern Recognition (ICPR) 2024
 
 ## Architecture
-![CMAEH](VTHSC.png)
+![CMAEH](CMAEH.pdf)
 
 This code uses the Masked AutoEncoder Vision Transformer (ViT) code and pretrained model ([https://github.com/jeonsworld/ViT-pytorch] [(https://github.com/facebookresearch/mae)] and DeepHash framework (https://github.com/swuxyj/DeepHash-pytorch).
 
