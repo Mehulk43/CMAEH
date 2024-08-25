@@ -4,6 +4,12 @@ International Conference on Pattern Recognition (ICPR) 2024
 
 ## Architecture
 ![CMAEH](fig/CMAEH.png)
+Fig. 1: The framework for image retrieval is named Contrastive Masked Au-
+toencoder hashing (CMAEH ). The pre-trained MAE_VIT is utilized for image
+classification in this framework, as denoted by the Red Dotted Line. The model
+is then trained for the primary retrieval task, as shown by the Blue Dotted Line.
+We optimize the model by using a combined strategy that includes the Hashing
+Loss, Supervised Contrastive Loss, and Reconstruction Loss.
 
 This code uses the Masked AutoEncoder Vision Transformer (ViT) code and pretrained model ([https://github.com/jeonsworld/ViT-pytorch] [(https://github.com/facebookresearch/mae)] and DeepHash framework (https://github.com/swuxyj/DeepHash-pytorch).
 
@@ -13,4 +19,12 @@ Download the MAE-ViT pretrained models from official repository and keep under p
 
 Download data from https://github.com/swuxyj/DeepHash-pytorch for different dataset, if not already present under data directory.
 
+
+## Masking Sample
+![Random masking](fig/randommasking.png)
+![Patch Masking](fig/patchmasking.png)
+
 ## Qualitative results
+
+![PR curve compared with different types of loss ](fig/PRcurve64.png)
+
