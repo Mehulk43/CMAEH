@@ -34,4 +34,12 @@ Download data from https://github.com/swuxyj/DeepHash-pytorch for different data
 ### Paper Citation
 Please cite following paper if you make use of this code in your research:
 
+@inproceedings{kumar2025cmaeh,
+  title={CMAEH: Contrastive Masked Autoencoder Based Hashing for Efficient Image Retrieval},
+  author={Kumar, Mehul and Sharma, Aditya and Mukherjee, Prerana and Jerripothula, Koteswar Rao},
+  booktitle={International Conference on Pattern Recognition},
+  pages={437--452},
+  year={2025},
+  organization={Springer}
+}
 
